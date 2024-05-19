@@ -1,6 +1,4 @@
 # fastapi_tasks
-<<<<<<< HEAD
-Project of simple API for CRM-loke systems.
 =======
 
 _API-сервис для CRM-систем_
@@ -38,4 +36,4 @@ _API-сервис для CRM-систем_
 docker-compose up --build -d
 ```
 6. Документация к запущенному проекту будет находиться по адресу **Swagger:** _http://localhost:8888/dosc_, **ReDoc:** _http://localhost:8888/redoc_
->>>>>>> master
+
