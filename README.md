@@ -35,5 +35,7 @@ _API-сервис для CRM-систем_
 ```bash
 docker-compose up --build -d
 ```
-6. Документация к запущенному проекту будет находиться по адресу **Swagger:** _http://localhost:8888/dosc_, **ReDoc:** _http://localhost:8888/redoc_
+6. Документация к запущенному проекту будет находиться по адресу:
+   - **Swagger:** _http://localhost:8888/dosc_
+   -  **ReDoc:** _http://localhost:8888/redoc_
 
