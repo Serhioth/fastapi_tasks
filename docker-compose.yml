@@ -12,7 +12,7 @@ services:
       - .env
 
   app:
-    image: serhioth/fastapi_tasks
+    build: .
     restart: always
     ports:
       - 8888:8888

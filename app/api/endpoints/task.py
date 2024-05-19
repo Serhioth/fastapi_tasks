@@ -165,7 +165,7 @@ async def update_task(
     response_model=TaskRead,
     response_model_exclude_none=True,
     dependencies=[Depends(current_user)],
-    status_code=status.HTTP_204_NO_CONTENT
+    status_code=status.HTTP_200_OK
 )
 async def delete_task(
     task_id: int,

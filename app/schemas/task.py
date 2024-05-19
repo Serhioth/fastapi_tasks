@@ -104,6 +104,10 @@ class TaskRead(TaskBase):
         None,
         title='Дата завершения задачи'
     )
+    is_expired: bool = Field(
+        ...,
+        title='Статус сроков выполнения задачи'
+    )
     expiration_date: Optional[datetime] = Field(
         None,
         title='Дата истечения срока выполнения задачи',
